@@ -52,6 +52,7 @@ let currentAudioIndex = 0;
 function playNextVideo() {
     currentVideoIndex = (currentVideoIndex + 1)  % animaciones.length;
     animationSrc.src = animaciones[currentVideoIndex];
+    animationSrc.type = "video/mp4"
     animationVideo.load();
     animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
@@ -60,6 +61,7 @@ function playNextVideo() {
 function playNextAudio() {
     currentAudioIndex = (currentAudioIndex + 1) % audios.length;
     audioSrc.src = audios[currentAudioIndex];
+    audioSrc.type = "audio/wav"
     audioVideo.load();
     audioVideo.play();
 }
@@ -67,6 +69,7 @@ function playNextAudio() {
 function playPreviousVideo() {
     currentVideoIndex = (currentVideoIndex - 1)  % animaciones.length;
     animationSrc.src = animaciones[currentVideoIndex];
+    animationSrc.type = "video/mp4"
     animationVideo.load();
     animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
@@ -75,6 +78,7 @@ function playPreviousVideo() {
 function playPreviousAudio() {
     currentAudioIndex = (currentAudioIndex - 1) % audios.length;
     audioSrc.src = audios[currentAudioIndex];
+    audioSrc.type = "audio/wav"
     audioVideo.load();
     audioVideo.play();
 }
