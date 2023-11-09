@@ -2,7 +2,9 @@ const anteriorBtn = document.getElementById('anterior-btn');
 const siguienteBtn = document.getElementById('siguiente-btn');
 
 const audioVideo= document.getElementById('audio-animation')
+const audioSrc= document.getElementById('audio-src')
 const animationVideo = document.getElementById('animation');
+const animationSrc= document.getElementById('animation-src')
 const textVideo = document.getElementById('text');
 
 let animaciones = [
@@ -49,7 +51,7 @@ let currentAudioIndex = 0;
 
 function playNextVideo() {
     currentVideoIndex = (currentVideoIndex + 1)  % animaciones.length;
-    animationVideo.src = animaciones[currentVideoIndex];
+    animationSrc.src = animaciones[currentVideoIndex];
     animationVideo.load();
     animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
@@ -57,14 +59,14 @@ function playNextVideo() {
 
 function playNextAudio() {
     currentAudioIndex = (currentAudioIndex + 1) % audios.length;
-    audioVideo.src = audios[currentAudioIndex];
+    audioSrc.src = audios[currentAudioIndex];
     audioVideo.load();
     audioVideo.play();
 }
 
 function playPreviousVideo() {
     currentVideoIndex = (currentVideoIndex - 1)  % animaciones.length;
-    animationVideo.src = animaciones[currentVideoIndex];
+    animationSrc.src = animaciones[currentVideoIndex];
     animationVideo.load();
     animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
@@ -72,7 +74,7 @@ function playPreviousVideo() {
 
 function playPreviousAudio() {
     currentAudioIndex = (currentAudioIndex - 1) % audios.length;
-    audioVideo.src = audios[currentAudioIndex];
+    audioSrc.src = audios[currentAudioIndex];
     audioVideo.load();
     audioVideo.play();
 }
