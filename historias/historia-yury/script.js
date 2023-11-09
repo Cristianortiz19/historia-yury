@@ -50,7 +50,6 @@ let currentAudioIndex = 0;
 function playNextVideo() {
     currentVideoIndex = (currentVideoIndex + 1)  % animaciones.length;
     animationVideo.src = animaciones[currentVideoIndex];
-    animationVideo.load();
     animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
 }
