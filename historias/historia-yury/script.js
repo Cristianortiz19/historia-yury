@@ -6,9 +6,9 @@ const animationVideo = document.getElementById('animation');
 const textVideo = document.getElementById('text');
 
 let animaciones = [
-    "../src/ESCENA 1.mp4",
-    "../src/ESCENA 2.mp4",
-    "../src/ESCENA 3.mp4",
+    "../src/escena1.mp4",
+    "../src/escena2.mp4",
+    "../src/escena3.mp4",
     "../src/ESCENA 4.mp4",
     "../src/ESCENA 5.mp4",
     "../src/ESCENA 6.mp4",
