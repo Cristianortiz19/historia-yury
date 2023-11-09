@@ -53,6 +53,8 @@ function playNextVideo() {
     currentVideoIndex = (currentVideoIndex + 1)  % animaciones.length;
     animationSrc.src = animaciones[currentVideoIndex];
     animationSrc.type = "video/mp4"
+    animationVideo.src = animaciones[currentVideoIndex];
+    animationVideo.src = "video/mp4"
     animationVideo.load();
     animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
@@ -62,6 +64,8 @@ function playNextAudio() {
     currentAudioIndex = (currentAudioIndex + 1) % audios.length;
     audioSrc.src = audios[currentAudioIndex];
     audioSrc.type = "audio/wav"
+    audioVideo.src = audios[currentAudioIndex];
+    audioVideo.src = "audio/wav"
     audioVideo.load();
     audioVideo.play();
 }
@@ -70,6 +74,8 @@ function playPreviousVideo() {
     currentVideoIndex = (currentVideoIndex - 1)  % animaciones.length;
     animationSrc.src = animaciones[currentVideoIndex];
     animationSrc.type = "video/mp4"
+    animationVideo.src = animaciones[currentVideoIndex];
+    animationVideo.src = "video/mp4"
     animationVideo.load();
     animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
@@ -79,6 +85,8 @@ function playPreviousAudio() {
     currentAudioIndex = (currentAudioIndex - 1) % audios.length;
     audioSrc.src = audios[currentAudioIndex];
     audioSrc.type = "audio/wav"
+    audioVideo.src = audios[currentAudioIndex];
+    audioVideo.src = "audio/wav"
     audioVideo.load();
     audioVideo.play();
 }
