@@ -6,29 +6,29 @@ const animationVideo = document.getElementById('animation');
 const textVideo = document.getElementById('text');
 
 let animaciones = [
-    "./src/ESCENA 1.mp4",
-    "./src/ESCENA 2.mp4",
-    "./src/ESCENA 3.mp4",
-    "./src/ESCENA 4.mp4",
-    "./src/ESCENA 5.mp4",
-    "./src/ESCENA 6.mp4",
-    "./src/ESCENA 7.mp4",
-    "./src/ESCENA 8.mp4",
-    "./src/ESCENA 9.mp4",
-    "./src/ESCENA 10.mp4",
+    "../src/ESCENA 1.mp4",
+    "../src/ESCENA 2.mp4",
+    "../src/ESCENA 3.mp4",
+    "../src/ESCENA 4.mp4",
+    "../src/ESCENA 5.mp4",
+    "../src/ESCENA 6.mp4",
+    "../src/ESCENA 7.mp4",
+    "../src/ESCENA 8.mp4",
+    "../src/ESCENA 9.mp4",
+    "../src/ESCENA 10.mp4",
 ]
 
 let audios = [
-    "./src/audio1.wav",
-    "./src/audio2.wav",
-    "./src/audio3.wav",
-    "./src/audio4.wav",
-    "./src/audio5.wav",
-    "./src/audio6.wav",
-    "./src/audio7.wav",
-    "./src/audio8.wav",
-    "./src/audio9.wav",
-    "./src/audio10.wav",
+    "../src/audio1.wav",
+    "../src/audio2.wav",
+    "../src/audio3.wav",
+    "../src/audio4.wav",
+    "../src/audio5.wav",
+    "../src/audio6.wav",
+    "../src/audio7.wav",
+    "../src/audio8.wav",
+    "../src/audio9.wav",
+    "../src/audio10.wav",
 ]
 
 let text = [
