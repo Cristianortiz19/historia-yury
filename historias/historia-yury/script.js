@@ -9,13 +9,13 @@ let animaciones = [
     "../src/escena1.mp4",
     "../src/escena2.mp4",
     "../src/escena3.mp4",
-    "../src/ESCENA 4.mp4",
-    "../src/ESCENA 5.mp4",
-    "../src/ESCENA 6.mp4",
-    "../src/ESCENA 7.mp4",
-    "../src/ESCENA 8.mp4",
-    "../src/ESCENA 9.mp4",
-    "../src/ESCENA 10.mp4",
+    "../src/escena4.mp4",
+    "../src/escena5.mp4",
+    "../src/escena6.mp4",
+    "../src/escena7.mp4",
+    "../src/escena8.mp4",
+    "../src/escena9.mp4",
+    "../src/escena10.mp4",
 ]
 
 let audios = [
