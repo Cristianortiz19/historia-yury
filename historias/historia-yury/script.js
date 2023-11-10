@@ -92,3 +92,12 @@ siguienteBtn.addEventListener('click', () => {
         console.log(currentVideoIndex);
     }
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    let reproducirbtn = document.getElementById('reproducir');
+    
+    reproducirbtn.addEventListener('click', function () {
+        audioVideo.play()
+    });
+
+})
