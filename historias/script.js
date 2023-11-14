@@ -6,16 +6,16 @@ const animationVideo = document.getElementById('animation');
 const textVideo = document.getElementById('text');
 
 let animaciones = [
-    "../src/ESCENA 1.mp4",
-    "../src/ESCENA 2.mp4",
-    "../src/ESCENA 3.mp4",
-    "../src/ESCENA 4.mp4",
-    "../src/ESCENA 5.mp4",
-    "../src/ESCENA 6.mp4",
-    "../src/ESCENA 7.mp4",
-    "../src/ESCENA 8.mp4",
-    "../src/ESCENA 9.mp4",
-    "../src/ESCENA 10.mp4",
+    "../src/escena1.mp4",
+    "../src/escena2.mp4",
+    "../src/escena3.mp4",
+    "../src/escena4.mp4",
+    "../src/escena5.mp4",
+    "../src/escena6.mp4",
+    "../src/escena7.mp4",
+    "../src/escena8.mp4",
+    "../src/escena9.mp4",
+    "../src/escena10.mp4",
 ]
 
 let audios = [
@@ -91,4 +91,25 @@ siguienteBtn.addEventListener('click', () => {
         playNextAudio();
         console.log(currentVideoIndex);
     }
+})
+
+// MENU
+
+const menu = document.getElementById('menu')
+
+const btnHistoriaYury = document.getElementById('btn-historia-yury');
+const btnHistoriaBicky = document.getElementById('btn-historia-bicky');
+const btnHistoriaMaisonDavid = document.getElementById('btn-historia-maison-david');
+
+
+const historiaYury = document.getElementById('historia-yury');
+
+const loopHistoriaYury = document.getElementById('loop-yury')
+
+btnHistoriaYury.addEventListener('click', () => {
+    menu.style.display = 'none';
+    historiaYury.style.display = 'flex';
+    animationVideo.play();
+    audioVideo.play();
+    loopHistoriaYury.play();
 })

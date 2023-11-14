@@ -11,43 +11,49 @@
 </head>
 <body>
     <main>
+        <section id="menu">
+            <button id="btn-historia-yury">Historia Yury</button>
+            <button id="btn-historia-bicky">Historia Bicky</button>
+            <button id="btn-historia-maison-david">Historia Maison David</button>
+        </section>
+
         <section class="animations">
             <div id="historia-yury" class="video-conteiner">
                 <div class="video-border">
-                    <video id="animation" autoplay loop>
+                    <video id="animation" loop>
                         <source src="./src/escena1.mp4" type="video/mp4">
                         Tu navegador no soporta el elemento de video.
                     </video>
                 </div>
-                <audio id="audio-animation"  autoplay loop>
+                <audio id="audio-animation">
                     <source src="./src/audio1.wav" type="audio/wav">
                     Tu navegador no soporta el elemento de audio.
                 </audio>
     
-                <audio src="./src/loop.wav" autoplay loop>
+                <audio id="loop-yury" src="./src/loop.wav" loop>
                     Tu navegador no soporta el elemento de audio.
                 </audio>
-                <!-- <div id="captions">
+                <div class="captions">
                     <div></div>
                     <h2 style="font-weight: 500;" id="text">Yo veía un chico enfrente de mi casa y me atraía mucho. 
                         En el colegio también me atraían varios</h2>
-                    <nav class="links">
-                        <a href="https://podcasters.spotify.com/pod/show/colectivo-true-colo/episodes/Valientas-Yuri-e1oq7kc">
-                            <img src="./src/spotify-logo.svg" alt="">
-                            <h3>Podcast Valientas</h3>
-                        </a>
-                        <a href="https://valientastransmedia.javerianacali.edu.co/">
-                            <img src="./src/web-logo.svg" alt="">
-                            <h3>Página Web</h3>
-                        </a>
-                    </nav>
-                </div> -->
+                </div>
+                <nav class="links">
+                    <a href="https://podcasters.spotify.com/pod/show/colectivo-true-colo/episodes/Valientas-Yuri-e1oq7kc">
+                        <img src="./src/spotify-logo.svg" alt="">
+                        <h3>Podcast Valientas</h3>
+                    </a>
+                    <a href="https://valientastransmedia.javerianacali.edu.co/">
+                        <img src="./src/web-logo.svg" alt="">
+                        <h3>Página Web</h3>
+                    </a>
+                </nav>
+                <div class="animation-buttons">
+                    <button id="anterior-btn">Anterior</button>
+                    <button id="siguiente-btn">Siguiente</button>
+                </div>
             </div>
-            <div class="animation-buttons">
-    
-                <button id="anterior-btn">Anterior</button>
-                <button id="siguiente-btn">Siguiente</button>
-            </div>
+            
         </section>
 
         

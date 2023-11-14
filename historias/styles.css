@@ -43,13 +43,17 @@ video {
 }
 
 
+
 #text {
     color: rgb(53, 53, 53);
-    padding: 70px;
-    width: auto;
+    padding: 20px;
+    width: 30%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 45px;
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px 0px;
 }
 
 .animation-buttons {
@@ -93,10 +97,21 @@ video {
     background-color: #ce84a3;
 }
 
+.captions {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: end;
+    padding: 0 10px;
+}
+
 .links {
     width: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: cen;
 }
 
@@ -104,27 +119,44 @@ video {
     background-color: white;
     display: flex;
     align-items: center;
-    padding: 15px 35px;
+    padding: 8px 25px;
     margin: 10px;
     border-radius: 8px;
     text-decoration: none;
 }
 
 .links a img{
-    width: 60px;
+    width: 40px;
     margin: 5px;
 }
 
 .links a h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
     color: rgb(0, 0, 0);
 }
 
-#captions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 1080px;
+#historia-yury {
+    display: none;
+}
 
+#menu {
+   display: flex;
+   flex-direction: column;
+   width: fit-content; 
+   margin: auto;
+   height: 100%;
+   justify-content: center;
+}
+
+#menu button {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 3px 3px 0px 0px;
+    border: 3px solid black;
 }
