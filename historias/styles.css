@@ -50,7 +50,7 @@ main {
     font-size: 20px;
     background-color: white;
     border: 3px solid black;
-    box-shadow: 3px 3px 0px 0px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
 }
 
 .animation-buttons {
@@ -72,7 +72,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     font-weight: 700;
-    box-shadow: 3px 3px 0px 0px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
 }
 
 #anterior-btn:hover {
@@ -87,7 +87,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     font-weight: 700;
-    box-shadow: 3px 3px 0px 0px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
 }
 
 #siguiente-btn:hover {
@@ -153,13 +153,36 @@ main {
     padding: 20px;
     margin: 10px;
     cursor: pointer;
-    font-weight: 700;
-    box-shadow: 3px 3px 0px 0px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
     border: 3px solid black;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (min-width: 2500px) and (max-width:4000px) {
+    .video-conteiner {
+        width: 34%;
+        padding: 0 33%;
+    }
+}
 
+@media screen and (min-width: 1400px) and (max-width:2499px) {
+    .video-conteiner {
+        width: 44%;
+        padding: 0 28%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1399px) {
+    .video-conteiner {
+        width: 54%;
+        padding: 0 23%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width:1199px) {
+    .video-conteiner {
+        width: 64%;
+        padding: 0 18%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -198,7 +221,6 @@ main {
         padding: 10px 30px;
         border: 2px solid black;
         font-size: 12px;
-        box-shadow: 3px 3px 0px 0px;
     }
     
     #siguiente-btn {
@@ -206,7 +228,6 @@ main {
         border: 2px solid black;
         font-size: 12px;
         font-weight: 700;
-        box-shadow: 3px 3px 0px 0px;
     }
     .animation-buttons {
         top: 60%;
