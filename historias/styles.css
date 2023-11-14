@@ -157,3 +157,62 @@ main {
     box-shadow: 3px 3px 0px 0px;
     border: 3px solid black;
 }
+
+@media screen and (max-width:1200px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+    .animation {
+        border: 5px solid black;
+    }
+
+}
+
+@media screen and (max-width: 821px) {
+    #anterior-btn {
+        padding: 10px 30px;
+        border: 2px solid black;
+        font-size: 13px;
+    }
+    
+    #siguiente-btn {
+        padding: 10px 30px;
+        border: 2px solid black;
+        font-size: 13px;
+    }
+    .animation-buttons {
+        top: 60%;
+    }
+    .text {
+        font-size: 10px;
+        width: 40%;
+    }
+    .animation {
+        border: 3px solid black;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #anterior-btn {
+        padding: 10px 30px;
+        border: 2px solid black;
+        font-size: 12px;
+        box-shadow: 3px 3px 0px 0px;
+    }
+    
+    #siguiente-btn {
+        padding: 10px 30px;
+        border: 2px solid black;
+        font-size: 12px;
+        font-weight: 700;
+        box-shadow: 3px 3px 0px 0px;
+    }
+    .animation-buttons {
+        top: 60%;
+    }
+    .text {
+        font-size: 10px;
+        width: 40%;
+    }
+}
