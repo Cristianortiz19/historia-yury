@@ -8,7 +8,7 @@ const siguienteBtn = document.getElementById('siguiente-btn');
 const btnHistoriaYury = document.getElementById('btn-historia-yury');
 const historiaYury = document.getElementById('historia-yury');
 const audioVideoYury= document.getElementById('audio-animation-yury')
-const animationVideoYury = document.getElementById('animation');
+const animationVideoYury = document.getElementById('animation-yury');
 const textVideoYury = document.getElementById('text-yury');
 const loopHistoriaYury = document.getElementById('loop-yury')
 
