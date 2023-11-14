@@ -22,29 +22,29 @@ let audios = [];
 let text = [];
 
 let animacionesYury = [
-    "../src/escena-yury1.gif",
-    "../src/escena-yury2.gif",
-    "../src/escena-yury3.gif",
-    "../src/escena-yury4.gif",
-    "../src/escena-yury5.gif",
-    "../src/escena-yury6.gif",
-    "../src/escena-yury7.gif",
-    "../src/escena-yury8.gif",
-    "../src/escena-yury9.gif",
-    "../src/escena-yury10.gif",
+    "./src/escena-yury1.gif",
+    "./src/escena-yury2.gif",
+    "./src/escena-yury3.gif",
+    "./src/escena-yury4.gif",
+    "./src/escena-yury5.gif",
+    "./src/escena-yury6.gif",
+    "./src/escena-yury7.gif",
+    "./src/escena-yury8.gif",
+    "./src/escena-yury9.gif",
+    "./src/escena-yury10.gif",
 ]
 
 let audiosYury = [
-    "../src/audio-yury1.wav",
-    "../src/audio-yury2.wav",
-    "../src/audio-yury3.wav",
-    "../src/audio-yury4.wav",
-    "../src/audio-yury5.wav",
-    "../src/audio-yury6.wav",
-    "../src/audio-yury7.wav",
-    "../src/audio-yury8.wav",
-    "../src/audio-yury9.wav",
-    "../src/audio-yury10.wav",
+    "./src/audio-yury1.wav",
+    "./src/audio-yury2.wav",
+    "./src/audio-yury3.wav",
+    "./src/audio-yury4.wav",
+    "./src/audio-yury5.wav",
+    "./src/audio-yury6.wav",
+    "./src/audio-yury7.wav",
+    "./src/audio-yury8.wav",
+    "./src/audio-yury9.wav",
+    "./src/audio-yury10.wav",
 ]
 
 let textYury = [
