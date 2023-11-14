@@ -1,37 +1,53 @@
+const menu = document.getElementById('menu')
+
+
 const anteriorBtn = document.getElementById('anterior-btn');
 const siguienteBtn = document.getElementById('siguiente-btn');
 
-const audioVideo= document.getElementById('audio-animation')
-const animationVideo = document.getElementById('animation');
-const textVideo = document.getElementById('text');
+// Historia Yury getters
+const btnHistoriaYury = document.getElementById('btn-historia-yury');
+const historiaYury = document.getElementById('historia-yury');
+const audioVideoYury= document.getElementById('audio-animation-yury')
+const animationVideoYury = document.getElementById('animation');
+const textVideoYury = document.getElementById('text-yury');
+const loopHistoriaYury = document.getElementById('loop-yury')
 
-let animaciones = [
-    "../src/escena1.mp4",
-    "../src/escena2.mp4",
-    "../src/escena3.mp4",
-    "../src/escena4.mp4",
-    "../src/escena5.mp4",
-    "../src/escena6.mp4",
-    "../src/escena7.mp4",
-    "../src/escena8.mp4",
-    "../src/escena9.mp4",
-    "../src/escena10.mp4",
+
+// Variables
+let audioVideo;
+let animationVideo;
+let textVideo;
+let animaciones = [];
+let audios = [];
+let text = [];
+
+let animacionesYury = [
+    "../src/escena-yury1.gif",
+    "../src/escena-yury2.gif",
+    "../src/escena-yury3.gif",
+    "../src/escena-yury4.gif",
+    "../src/escena-yury5.gif",
+    "../src/escena-yury6.gif",
+    "../src/escena-yury7.gif",
+    "../src/escena-yury8.gif",
+    "../src/escena-yury9.gif",
+    "../src/escena-yury10.gif",
 ]
 
-let audios = [
-    "../src/audio1.wav",
-    "../src/audio2.wav",
-    "../src/audio3.wav",
-    "../src/audio4.wav",
-    "../src/audio5.wav",
-    "../src/audio6.wav",
-    "../src/audio7.wav",
-    "../src/audio8.wav",
-    "../src/audio9.wav",
-    "../src/audio10.wav",
+let audiosYury = [
+    "../src/audio-yury1.wav",
+    "../src/audio-yury2.wav",
+    "../src/audio-yury3.wav",
+    "../src/audio-yury4.wav",
+    "../src/audio-yury5.wav",
+    "../src/audio-yury6.wav",
+    "../src/audio-yury7.wav",
+    "../src/audio-yury8.wav",
+    "../src/audio-yury9.wav",
+    "../src/audio-yury10.wav",
 ]
 
-let text = [
+let textYury = [
     "Yo veía un chico enfrente de mi casa y me atraía mucho. En el colegio también me atraían varios.",
     "Me volé de mi casa porque no me aceptaban, sobre todo mi hermano mayor, él me hacía la vida imposible, y mi mamá. Tenía 10 años.",
     "Me fui a recorrer el departamento, estuve en Anserma, Sevilla; dormí en la calle, estuve presa, estuve en el hospital.",
@@ -44,14 +60,35 @@ let text = [
     "Todos mis hermanos me abrazaron y lloraron conmigo, no dejaron que me fuera de la casa. Tuve el apoyo de todos ellos."
 ]
 
+
+// MENU
+
+
+const btnHistoriaBicky = document.getElementById('btn-historia-bicky');
+const btnHistoriaMaisonDavid = document.getElementById('btn-historia-maison-david');
+
+
+
+btnHistoriaYury.addEventListener('click', () => {
+    animationVideo = animationVideoYury;
+    audioVideo = audioVideoYury;
+    textVideo = textVideoYury;
+    animaciones = animacionesYury;
+    audios = audiosYury;
+    text = textYury;
+    menu.style.display = 'none';
+    historiaYury.style.display = 'flex';
+    audioVideo.play();
+    loopHistoriaYury.play();
+})
+
+
 let currentVideoIndex = 0;
 let currentAudioIndex = 0;
 
 function playNextVideo() {
     currentVideoIndex = (currentVideoIndex + 1)  % animaciones.length;
     animationVideo.src = animaciones[currentVideoIndex];
-    animationVideo.load();
-    animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
 }
 
@@ -65,8 +102,6 @@ function playNextAudio() {
 function playPreviousVideo() {
     currentVideoIndex = (currentVideoIndex - 1)  % animaciones.length;
     animationVideo.src = animaciones[currentVideoIndex];
-    animationVideo.load();
-    animationVideo.play();
     textVideo.textContent = text[currentVideoIndex]
 }
 
@@ -93,23 +128,3 @@ siguienteBtn.addEventListener('click', () => {
     }
 })
 
-// MENU
-
-const menu = document.getElementById('menu')
-
-const btnHistoriaYury = document.getElementById('btn-historia-yury');
-const btnHistoriaBicky = document.getElementById('btn-historia-bicky');
-const btnHistoriaMaisonDavid = document.getElementById('btn-historia-maison-david');
-
-
-const historiaYury = document.getElementById('historia-yury');
-
-const loopHistoriaYury = document.getElementById('loop-yury')
-
-btnHistoriaYury.addEventListener('click', () => {
-    menu.style.display = 'none';
-    historiaYury.style.display = 'flex';
-    animationVideo.play();
-    audioVideo.play();
-    loopHistoriaYury.play();
-})

@@ -31,10 +31,6 @@ main {
     padding: 0 8%;
 }
 
-.video-border {
-    
-}
-
 .animation {
     width: 100%;
     height: 100%;
@@ -45,7 +41,7 @@ main {
 
 
 
-#text {
+.text {
     color: rgb(53, 53, 53);
     padding: 20px;
     width: 30%;
