@@ -43,7 +43,7 @@ let textYury = [
     "Me volé de mi casa porque no me aceptaban, sobre todo mi hermano mayor, él me hacía la vida imposible, y mi mamá. Tenía 10 años.",
     "Me fui a recorrer el departamento, estuve en Anserma, Sevilla; dormí en la calle, estuve presa, estuve en el hospital.",
     "La gente antes discriminaba a los trans, lo trataban mal a uno y le decían cochinadas, nos tiraban piedras.",
-    "Después de 5 años me encontré a mi hermano mayor, que era dragoneante del batallón en un prostíbulo… Mi hermano me quiso ver y él me abrazó y perdonó.",
+    "Después de cinco años me encontré a mi hermano mayor, que era dragoneante del batallón, en un prostíbulo… Mi hermano me quiso ver y él me abrazó y perdonó.",
     "Tenía ya unos 20 años, llegué a la casa de mi madre y pregunté por ella. Me recibieron mis hermanas y nadie me reconoció.",
     "Cuando llegó (su mamá) no me reconoció, me preguntó quién era. Estaba desesperada… le dije que era su hijo, nos abrazamos y lloramos ese día, junto con mi familia.",
     "Mi mamá me llevó donde unas estilistas amigas de ellas. Las conocí y ellas me recibieron como amiga. Ya me quedé luego trabajando con ellas como estilista.",
@@ -111,7 +111,7 @@ let text = [];
 
 // MENU
 const btnHistoriaMaisonDavid = document.getElementById('btn-historia-maison-david');
-
+const animationDisplay = document.getElementById('animations')
 
 
 btnHistoriaYury.addEventListener('click', () => {
@@ -121,6 +121,7 @@ btnHistoriaYury.addEventListener('click', () => {
     animaciones = animacionesYury;
     audios = audiosYury;
     text = textYury;
+    animationDisplay.style.display = 'block';
     menu.style.display = 'none';
     historiaYury.style.display = 'flex';
     audioVideo.play();
@@ -134,6 +135,7 @@ btnHistoriaBicky.addEventListener('click', () => {
     animaciones = animacionesBicky;
     audios = audiosBicky;
     text = textBicky;
+    animationDisplay.style.display = 'block';
     menu.style.display = 'none';
     historiaBicky.style.display = 'flex';
     audioVideo.play();
