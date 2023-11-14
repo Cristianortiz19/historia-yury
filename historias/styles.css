@@ -77,7 +77,7 @@ main {
 }
 
 #anterior-btn:hover {
-    background-color: #ce84a3;
+    background-color: #cccccc;
 }
 
 #siguiente-btn {
@@ -93,7 +93,7 @@ main {
 }
 
 #siguiente-btn:hover {
-    background-color: #ce84a3;
+    background-color: #cccccc;
 }
 
 .captions {
@@ -136,6 +136,10 @@ main {
 }
 
 #historia-yury {
+    display: none;
+}
+
+#historia-bicky {
     display: none;
 }
 
@@ -200,7 +204,15 @@ main {
         border: 2px solid black;
         font-size: 13px;
     }
+
+    #anterior-btn:hover {
+        background-color: white;
+    }
     
+    #siguiente-btn:hover {
+        background-color: white;
+    }
+
     #siguiente-btn {
         padding: 10px 30px;
         border: 2px solid black;
