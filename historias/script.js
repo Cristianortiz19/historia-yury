@@ -261,7 +261,7 @@ menuBtn.addEventListener('click', () => {
     loopHistoriaBicky.pause();
     loopHistoriaMaison.pause();
     audioVideo = null;
-    animationVideo = undefined;
+    animationVideo.style.display = 'none';
     textVideo = null;
     animaciones = [];
     audios = [];
