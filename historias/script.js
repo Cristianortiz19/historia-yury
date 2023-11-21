@@ -148,7 +148,7 @@ let textMaison = [
 // Variables
 let audioVideo;
 let animationVideo;
-let textVideo;
+let textVideo
 let animaciones = [];
 let audios = [];
 let text = [];
@@ -173,6 +173,7 @@ btnHistoriaYury.addEventListener('click', () => {
     historiaYury.style.display = 'flex';
     audioVideo.play();
     loopHistoriaYury.play();
+    console.log(textVideo)
 })
 
 btnHistoriaBicky.addEventListener('click', () => {
@@ -187,6 +188,7 @@ btnHistoriaBicky.addEventListener('click', () => {
     historiaBicky.style.display = 'flex';
     audioVideo.play();
     loopHistoriaBicky.play();
+    console.log(textVideo)
 })
 
 btnHistoriaMaison.addEventListener('click', () => {
@@ -201,6 +203,7 @@ btnHistoriaMaison.addEventListener('click', () => {
     historiaMaison.style.display = 'flex';
     audioVideo.play();
     loopHistoriaMaison.play();
+    console.log(textVideo)
 })
 
 
@@ -266,7 +269,7 @@ menuBtn.addEventListener('click', () => {
     historiaBicky.style.display = 'none';
     historiaMaison.style.display = 'none';
     audioVideo = null;
-    textVideo = null;
+    textVideo.textContent = '';
     animaciones = [];
     audios = [];
     text = [];
