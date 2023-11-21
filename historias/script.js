@@ -180,16 +180,16 @@ let audiosAlice = [
 ]
 
 let textAlice = [
-    "(Mamá de Maison) “Le celebramos los 15 años en Palmira, yo le hice poner un vestido. Ella lloraba, decía que no quería un vestido. Entonces yo me lo puse, cuando me vio me dijo, “si te uno pones igual al mío, yo me lo pongo”. Lo hizo por complacerme, no porque le gustaba.",
-    "Nunca me gustaron las muñecas, jugaba con carritos en la calle.",
-    "Llamaron a mi madre del colegio porque nos habían separado en grupos de hombres y mujeres y yo no quería estar con las chicas. Por eso hice berrinche y lloré. Le dijeron (a mi madre) que su hija se cree niño y no lo es.",
-    "Con la ropa no me sentía identificado. Me sentía incómodo, en una burbuja, como frustrado.",
-    "Saliendo del colegio, unos pelaos me iban a golpear. Me dijeron que demuestre que era un hombre. Yo salí huyendo.",
-    "(Mamá de Maison) Le preguntaba si eso era malo (las inyecciones), y leía que había personas que se le subían los nervios, se brotaban o se volvían depresivos.",
-    "Al menos tuve a mi mamá de acompañamiento con mi proceso, no me imagino si no la tuviera.",
-    "Vi que el lugar que nací y crecí no era el mismo. Ya había cambiado todo.",
-    "Hago muchas cosas. Soy deportista, bailarín, me gusta el dibujo y las artes plásticas.",
-    "Siempre nos acompañamos. Cuando estamos reunidos esperamos a que cada uno llegue a su casa seguro."
+    "Porque cuando nací, a los niños se les otorgan espíritus ",
+    "Ella cree (mi abuela) que yo tenía dos espíritus",
+    "Me acuerdo más de ella que mi propio padre, o sea, tengo más presente a mi bisabuela y a mi propio padre, a pesar de que ambos estén muertos",
+    "Mi abuela y mi madre siempre resaltaron que tenía que que estudiar mucho ",
+    "En el colegio Sinaí nunca tuve paz, siempre me molestaban, me decían que era gay, que era gorda, resaltaban que era fea",
+    "Mi madre era una mujer que ha sido líder a donde quiera que vaya, entonces este liderazgo no era bien visto",
+    "Mi madre tiene que irse, separarse por temas differentes, yo me quedo sola, enfrentándome",
+    "como yo decidí ser feliz entonces entro a campus diverso",
+    "Esta búsqueda es personal conmigo misma, y dentro de las comunidades indígenas, porque busco un referente cuando empiezas a transición",
+    "Alice en 5 años estará haciendo una académica de geografía estará enseñando su geografía del cuerpo sobre geografía del género sobre la geografía trans directamente y adueñándose del tema",
 ]
 
 // Variables
