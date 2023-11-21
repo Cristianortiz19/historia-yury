@@ -28,6 +28,13 @@ main {
     display: none;
 }
 
+#historia-maison {
+    display: none;
+}
+
+#historia-Alice {
+    display: none;
+}
 .video-conteiner {
     position: relative;
     width: 84%;

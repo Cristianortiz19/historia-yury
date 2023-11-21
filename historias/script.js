@@ -145,6 +145,53 @@ let textMaison = [
     "Siempre nos acompañamos. Cuando estamos reunidos esperamos a que cada uno llegue a su casa seguro."
 ]
 
+// Historia Alice
+const btnHistoriaAlice= document.getElementById('btn-historia-alice');
+const historiaAlice = document.getElementById('historia-alice');
+const audioVideoAlice= document.getElementById('audio-animation-alice')
+const animationVideoAlice = document.getElementById('animation-alice');
+const textVideoAlice = document.getElementById('text-alice');
+const loopHistoriaAlice = document.getElementById('loop-alice')
+
+let animacionesAlice = [
+    "./src/escena-alice1.gif",
+    "./src/escena-alice2.gif",
+    "./src/escena-alice3.gif",
+    "./src/escena-alice4.gif",
+    "./src/escena-alice5.gif",
+    "./src/escena-alice6.gif",
+    "./src/escena-alice7.gif",
+    "./src/escena-alice8.gif",
+    "./src/escena-alice9.gif",
+    "./src/escena-alice10.gif",
+]
+
+let audiosAlice = [
+    "./src/audio-alice1.wav",
+    "./src/audio-alice2.wav",
+    "./src/audio-alice3.wav",
+    "./src/audio-alice4.wav",
+    "./src/audio-alice5.wav",
+    "./src/audio-alice6.wav",
+    "./src/audio-alice7.wav",
+    "./src/audio-alice8.wav",
+    "./src/audio-alice9.wav",
+    "./src/audio-alice10.wav",
+]
+
+let textAlice = [
+    "(Mamá de Maison) “Le celebramos los 15 años en Palmira, yo le hice poner un vestido. Ella lloraba, decía que no quería un vestido. Entonces yo me lo puse, cuando me vio me dijo, “si te uno pones igual al mío, yo me lo pongo”. Lo hizo por complacerme, no porque le gustaba.",
+    "Nunca me gustaron las muñecas, jugaba con carritos en la calle.",
+    "Llamaron a mi madre del colegio porque nos habían separado en grupos de hombres y mujeres y yo no quería estar con las chicas. Por eso hice berrinche y lloré. Le dijeron (a mi madre) que su hija se cree niño y no lo es.",
+    "Con la ropa no me sentía identificado. Me sentía incómodo, en una burbuja, como frustrado.",
+    "Saliendo del colegio, unos pelaos me iban a golpear. Me dijeron que demuestre que era un hombre. Yo salí huyendo.",
+    "(Mamá de Maison) Le preguntaba si eso era malo (las inyecciones), y leía que había personas que se le subían los nervios, se brotaban o se volvían depresivos.",
+    "Al menos tuve a mi mamá de acompañamiento con mi proceso, no me imagino si no la tuviera.",
+    "Vi que el lugar que nací y crecí no era el mismo. Ya había cambiado todo.",
+    "Hago muchas cosas. Soy deportista, bailarín, me gusta el dibujo y las artes plásticas.",
+    "Siempre nos acompañamos. Cuando estamos reunidos esperamos a que cada uno llegue a su casa seguro."
+]
+
 // Variables
 let audioVideo;
 let animationVideo;
@@ -206,6 +253,21 @@ btnHistoriaMaison.addEventListener('click', () => {
     console.log(textVideo)
 })
 
+btnHistoriaAlice.addEventListener('click', () => {
+    animationVideo = animationVideoAlice;
+    audioVideo = audioVideoAlice;
+    textVideo = textVideoAlice;
+    animaciones = animacionesAlice;
+    audios = audiosAlice;
+    text = textAlice;
+    animationDisplay.style.display = 'block';
+    menu.style.display = 'none';
+    historiaAlice.style.display = 'flex';
+    audioVideo.play();
+    loopHistoriaAlice.play();
+    console.log(textVideo)
+})
+
 
 let currentVideoIndex = 0;
 let currentAudioIndex = 0;
@@ -263,11 +325,13 @@ menuBtn.addEventListener('click', () => {
     loopHistoriaYury.pause();
     loopHistoriaBicky.pause();
     loopHistoriaMaison.pause();
+    loopHistoriaAlice.pause();
     console.log(animationVideo)
     animationVideo = null;
     historiaYury.style.display = 'none';
     historiaBicky.style.display = 'none';
     historiaMaison.style.display = 'none';
+    historiaAlice.style.display = 'none';
     audioVideo = null;
     textVideo.textContent = '';
     animaciones = [];
@@ -295,14 +359,19 @@ muteMusicBtn.addEventListener('click', function () {
         loopHistoriaYury.volume = 0;
     }
     if(loopHistoriaBicky.volume === 0) {
-        loopHistoriaYury.volume = 1;
+        loopHistoriaBicky.volume = 1;
     } else {
-        loopHistoriaYury.volume = 0;
+        loopHistoriaBicky.volume = 0;
     }
     if(loopHistoriaMaison.volume === 0) {
-        loopHistoriaYury.volume = 1;
+        loopHistoriaMaison.volume = 1;
     } else {
-        loopHistoriaYury.volume = 0;
+        loopHistoriaMaison.volume = 0;
+    }
+    if(loopHistoriaAlice.volume === 0) {
+        loopHistoriaAlice.volume = 1;
+    } else {
+        loopHistoriaAlice.volume = 0;
     }
 })
 
