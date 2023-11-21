@@ -260,8 +260,12 @@ menuBtn.addEventListener('click', () => {
     loopHistoriaYury.pause();
     loopHistoriaBicky.pause();
     loopHistoriaMaison.pause();
+    console.log(animationVideo)
+    animationVideo = null;
+    historiaYury.style.display = 'none';
+    historiaBicky.style.display = 'none';
+    historiaMaison.style.display = 'none';
     audioVideo = null;
-    animationVideo.style.display = 'none';
     textVideo = null;
     animaciones = [];
     audios = [];
