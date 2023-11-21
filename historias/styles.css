@@ -167,6 +167,30 @@ main {
     border: 3px solid black;
 }
 
+#top-buttons {
+    position: absolute;
+    display: flex;
+}
+
+#top-buttons button {
+    background-color: white;
+    font-family: 'Comic Book';
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+    border: 3px solid black;
+}
+
+#menu-btn {
+    padding: 10px 20px;
+}
+
+#top-buttons button img {
+    width: 20px;
+    padding: 5px 5px;
+}
+
 @media screen and (min-width: 2500px) and (max-width:4000px) {
     .video-conteiner {
         width: 34%;
