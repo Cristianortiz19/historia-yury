@@ -161,17 +161,29 @@ main {
    justify-content: center;
 }
 
-#menu button {
+#menu div {
+    display: flex;
+}
+
+#menu div button {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-weight: 800;
+    width: 100%;
+    height: 70px;
     font-size: 15px;
-    padding: 20px;
+    padding: 20px 40px;
     margin: 10px;
     cursor: pointer;
     box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
     border: 3px solid black;
+}
+
+#menu div img {
+    margin-right: -50px;
+    margin-top: -10px;
+    z-index: 0;
 }
 
 #top-buttons {

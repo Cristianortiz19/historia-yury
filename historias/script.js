@@ -180,7 +180,7 @@ let audiosAlice = [
 ]
 
 let textAlice = [
-    "Porque cuando nací, a los niños se les otorgan espíritus ",
+    "Porque cuando nací, a los niños se les otorgan espíritus",
     "Ella cree (mi abuela) que yo tenía dos espíritus",
     "Me acuerdo más de ella que mi propio padre, o sea, tengo más presente a mi bisabuela y a mi propio padre, a pesar de que ambos estén muertos",
     "Mi abuela y mi madre siempre resaltaron que tenía que que estudiar mucho ",
@@ -271,6 +271,7 @@ btnHistoriaAlice.addEventListener('click', () => {
 
 let currentVideoIndex = 0;
 let currentAudioIndex = 0;
+
 
 function playNextVideo() {
     currentVideoIndex = (currentVideoIndex + 1)  % animaciones.length;
