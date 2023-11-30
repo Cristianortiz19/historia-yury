@@ -161,19 +161,34 @@ main {
     color: rgb(0, 0, 0);
 }
 
+#claqueta {
+}
+
+#claqueta img{
+    position: absolute;
+    width: 130%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
 #menu {
-   display: none;
+   display: flex;
    flex-direction: column;
-   width: fit-content; 
-   margin: auto;
+   width: fit-content;
+   width: 100%;
    height: 100%;
+   align-items: end;
    justify-content: center;
-   opacity: 0;
    transition: opacity 0.2s ease-in-out;
+   margin-bottom: 50px;
 }
 
 #menu div {
     display: flex;
+    width: 350px;
+    height: 100px;
+    margin-right: 40px;
 }
 
 #menu div button {
@@ -189,12 +204,13 @@ main {
     cursor: pointer;
     box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
     border: 3px solid black;
+    z-index: 2;
 }
 
 #menu div img {
     margin-right: -50px;
     margin-top: -10px;
-    z-index: 0;
+    z-index: 3;
 }
 
 #top-buttons {

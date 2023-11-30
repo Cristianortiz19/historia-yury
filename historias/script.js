@@ -227,16 +227,16 @@ let audiosSofia = [
 ]
 
 let textSofia = [
-    "..cuando me preguntaba qué si me gustaban los hombres, yo les decía que sí, que sí, que sí, yo en el colegio era una persona o sea yo, era yo misma, me sentía libre, pero en mi casa era otra persona en la casa era el hombre de la casa que siempre habían querido, era en ese entonces me llamaba Winston Alexandro en la casa era Winston y en el colegio ya era otra persona o sea yo.",
-    "… desde pequeña yo usaba los vestidos de mi tía, me maquillaban, las flores me las ponía en la cabeza y decía que yo era una mujer, cogía la toalla y me lo colocaba como si fuera mi cabello, era algo muy bonito que tuve en mi niñez, pero bastante duro también por parte de mi papá porque mi papá me pegaba mucho,",
-    "Con mi mamá sí fue algo muy muy bonito, porque ella me dijo tranquila, que yo le apoyaré apoyaron que más pueda yo a usted no lo voy a no lo voy a echar de la casa lo voy a tener aquí en la casa…escuchar que ella me decía que me iba a apoyar era un alivio para mí y estaba súper feliz.",
-    "..quiero ir con el cabello largo incluso me pues una una extensiones desde ahí ya me fui le arreglé las uñas y en eso yo había perdido una materia y me tocó recuperar regalar recuperación me fui incluso con el cabello con las extensiones con las uñas y en ese en ese momento me llamó la coordinadora y me dijo que que por qué ah me dijo que que hiciera el favor de quitarse eso, porque eso no iba a tener color con con el uniforme del colegio",
-    "…después de eso me senté en un bordito que hay en el colegio y me agarré a llorar por lo que me había dicho la coordinadora.. una profesora que llegó me preguntó, por qué estaba así?, la profe súper linda súper, no se llegó y me dijo que que me fuera así que no le diera el gusto, incluso otros profesores me apoyaron y me dijeron que fuera así que no les dará el gusto. Súper contenta me fui con mi vestido rojo con la extensión, súper bonita. Me sentía libre, porque después de contarle a mi mamá que me gustaban los hombres, me quité un peso de encima, ya como que voy a hacer yo tanto en el colegio como en la casa.",
-    "durante un año vi los cambios pero era como que difícil porque te daba unos bajones horribles como que te daba una depresión que como que quiero llorar por todo o sea a veces estaba por un momento como feliz contenta y al rato ya estaba y al ratito ya me daba ganas de llorar. Mi mamá fue la que me apoyó me acompañó en todo este proceso, fue bastante difícil porque incluso mi mamá se le dificultaba mucho hasta decir mi nombre ",
-    "mi papá después de de que se enteró de que que a mí me gustan los hombres se enteró por otra gente se enteró por unas fotos y se enteró también por creo que por mi tía no no recuerdo bien. Me dijo un poco de cosas que la verdad me dolió bastante porque pensé que él era una persona bastante abierta porque sabía que era abierta porque me decía que me iba a apoyar y ver que era muy diferente entonces yo como que ahí me sentí bastante mal.",
-    "Empecé a salir hacia las asambleas ahí fue donde fui como que el boom de como que de la de la comunidad porque era la primera trans indígena eh este yo llegué y fui a eso fue en la primera asamblea fue que yo fui fue a jambaló no no no recuerdo bien cómo era la medida pero era no me acuerdo bien que era jambaló eso cuando yo llegué allá o sea me veían como un bicho raro como que tipo y esta qué hasta que fue que le picó como que ella que se cree y si tienes así y yo pues normal",
-    "una vez que un mayor me dijo que yo tenía una enfermedad y que para eso se tenía la cura de que era con los baños y llevarlo a bañar a la laguna o sea esa era la tradición porque obviamente son las creencias y llegó otro mayor -o sea la verdad me quedé aterrada- porque era un mayor",
-    "En cinco años me me vería cumpliendo algo de mi de mi de mis sueños que es realizar mis 15 a lo que cumpla mis 25 el algo que siempre había querido celebrar mis años también ya obviamente con mis senos, quería también hacerme como una rinoplastia o algo así hacerme la la resignación de sexo. También quiero estar estudiando haciendo mi carrera que sería idiomas o psicología. Mi mensaje sería “nunca tengas miedo de ser tú”.",
+    "Cuando me preguntaban que si me gustaban los hombres, yo les decía que sí… en el colegio, era yo misma, me sentía libre… pero en mi casa era otra persona, era el hombre que siempre habían querido.",
+    "… desde pequeña yo usaba los vestidos de mi tía, me maquillaban, las flores me las ponía en la cabeza y decía que yo era una mujer… pero también era bastante duro por parte de mi papá, me pegaba mucho.",
+    "Con mi mamá sí fue algo muy muy bonito, porque ella me dijo “tranquila, que yo la apoyaré”. Eso era un alivio para mí y estaba súper feliz.",
+    "Me fui incluso con el cabello largo, con las extensiones, con las uñas, y en ese momento me llamó la coordinadora (del colegio) y me dijo que por qué, que hiciera el favor de quitarse eso.",
+    "Una profesora que llegó me preguntó, por qué estaba así?, me dijo que me fuera así que no le diera el gusto. Súper contenta me fui con mi vestido rojo con la extensión, súper bonita ",
+    "Durante un año vi los cambios pero era como difícil porque te daba unos bajones horribles, como que te daba una depresión, o sea, a veces estaba feliz, y al rato, ya me daban ganas de llorar. ",
+    "Mi papá se enteró por unas fotos y por mi tía, no recuerdo bien. Me dijo un poco de cosas que la verdad me dolió bastante Él cumple años el 24 de diciembre y falleció el 25, fue bastante duro para mí porque a pesar de todo iba a seguir siendo mi papá.",
+    "Empecé a salir hacia las asambleas, ahí fue como que el boom porque era la primera trans indígena o sea me veían como un bicho raro",
+    "una vez un mayor me dijo que yo tenía una enfermedad y que para eso se tenía la cura de que era con los baños y llevarlo a bañar a la laguna; y llegó otro mayor y dijo eso es algo normal, eso es algo que se sabe desde hace muchísimo tiempo. ",
+    "En cinco años me me vería cumpliendo algo de mis sueños que es realizar mis 15 a lo que cumpla mis 25, es algo que había querido celebrar. También quiero estar estudiando haciendo mi carrera que sería idiomas o psicología. ",
 ]
 
 // Variables
@@ -452,27 +452,6 @@ muteMusicBtn.addEventListener('click', function () {
 
 //Animación intro
 
-let comenzarBtn = document.getElementById('btn-comenzar')
-let portadaImg = document.getElementById('portada-img');
-let introAnimation = document.getElementById('intro-animation')
-
-comenzarBtn.addEventListener('click', () => {
-    
-    comenzarBtn.style.opacity = 0;
-    portadaImg.style.opacity = 1;
-    
-    setTimeout(function() {
-        //comenzarBtn.style.display = 'none';
-        portadaImg.style.opacity = 0;
-    }, 4000)
-
-    setTimeout(function () {
-        introAnimation.style.display = ' none'
-        menu.style.display = 'flex';
-        menu.style.opacity = 1;
-    }, 9000)
-    
-})
 
 //creditos
 let creditosBtn = document.getElementById('creditos-btn')
