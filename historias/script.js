@@ -473,3 +473,16 @@ comenzarBtn.addEventListener('click', () => {
     }, 9000)
     
 })
+
+//creditos
+let creditosBtn = document.getElementById('creditos-btn')
+let creditos = document.getElementById('creditos');
+let cerrarCreditos = document.getElementById('cerrar-creditos')
+
+creditosBtn.addEventListener('click', () => {
+    creditos.style.display = 'block';
+})
+
+cerrarCreditos.addEventListener('click', () => {
+    creditos.style.display = 'none'
+})
