@@ -32,9 +32,14 @@ main {
     display: none;
 }
 
-#historia-Alice {
+#historia-alice {
     display: none;
 }
+
+#historia-sofia {
+    display: none;
+}
+
 .video-conteiner {
     position: relative;
     width: 84%;
@@ -79,6 +84,10 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+}
+
+#top-buttons button {
+    padding: 5px 15px;
 }
 
 #anterior-btn {
