@@ -4,7 +4,7 @@
 }
 
 body, html {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     overflow: hidden;
 }
@@ -162,12 +162,14 @@ main {
 }
 
 #menu {
-   display: flex;
+   display: none;
    flex-direction: column;
    width: fit-content; 
    margin: auto;
    height: 100%;
    justify-content: center;
+   opacity: 0;
+   transition: opacity 0.2s ease-in-out;
 }
 
 #menu div {
@@ -217,6 +219,42 @@ main {
 #top-buttons button img {
     width: 20px;
     padding: 5px 5px;
+}
+
+#intro-animation {
+    display: flex;
+    flex-direction: column;
+   width: fit-content; 
+   margin: auto;
+   height: 100%;
+   justify-content: center;
+}
+
+#intro-animation button{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 800;
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+    padding: 20px 40px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+    border: 3px solid black;
+    z-index: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#portada-img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
 }
 
 @media screen and (min-width: 2500px) and (max-width:4000px) {

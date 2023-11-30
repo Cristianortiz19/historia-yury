@@ -450,3 +450,26 @@ muteMusicBtn.addEventListener('click', function () {
     }
 })
 
+//Animación intro
+
+let comenzarBtn = document.getElementById('btn-comenzar')
+let portadaImg = document.getElementById('portada-img');
+let introAnimation = document.getElementById('intro-animation')
+
+comenzarBtn.addEventListener('click', () => {
+    
+    comenzarBtn.style.opacity = 0;
+    portadaImg.style.opacity = 1;
+    
+    setTimeout(function() {
+        //comenzarBtn.style.display = 'none';
+        portadaImg.style.opacity = 0;
+    }, 4000)
+
+    setTimeout(function () {
+        introAnimation.style.display = ' none'
+        menu.style.display = 'flex';
+        menu.style.opacity = 1;
+    }, 9000)
+    
+})
