@@ -209,8 +209,8 @@ let animacionesSofia = [
     "./src/escena-sofia6.gif",
     "./src/escena-sofia7.gif",
     "./src/escena-sofia8.gif",
-    "./src/escena-sofia8.gif",
-    "./src/escena-sofia8.gif",
+    "./src/escena-sofia9.gif",
+    "./src/escena-sofia10.gif",
 ]
 
 let audiosSofia = [
