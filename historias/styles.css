@@ -293,6 +293,7 @@ main {
     padding: 5px 8px;
     font-size: 20px;
     cursor: pointer;
+    z-index: 3;
 }
 
 #creditos-cont img {
