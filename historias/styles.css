@@ -161,6 +161,13 @@ main {
     color: rgb(0, 0, 0);
 }
 
+#menu-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
 #menu-first-row {
     display: flex;
     justify-content: space-around;
@@ -433,6 +440,36 @@ main {
     .text {
         font-size: 10px;
         width: 40%;
+    }
+    #menu div button {
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-weight: 800;
+        width: 50%;
+        font-size: 12px;
+        margin: 10px;
+        cursor: pointer;
+        box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+        border: 3px solid black;
+        z-index: 2;
+    }
+    #menu-second-row {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #valientas-logo {
+        width: 100px;
+        margin-left: 100px;
+    }
+
+    #menu-first-row img {
+        width: 150px;
+    }
+
+    #menu-third-row img {
+        height: 110px;
     }
 }
 

@@ -1,4 +1,4 @@
-const menu = document.getElementById('menu')
+const menu = document.getElementById('menu-cont')
 
 
 const anteriorBtn = document.getElementById('anterior-btn');
