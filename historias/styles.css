@@ -225,6 +225,13 @@ main {
     z-index: 3;
 }
 
+#menu-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
 #top-buttons {
     display: flex;
 }
