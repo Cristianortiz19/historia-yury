@@ -137,7 +137,7 @@ main {
     width: fit-content;
     display: flex;
     flex-direction: row;
-    align-items: cen;
+    align-items: center;
 }
 
 .links a {
@@ -148,6 +148,8 @@ main {
     margin: 10px;
     border-radius: 8px;
     text-decoration: none;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
 }
 
 .links a img{

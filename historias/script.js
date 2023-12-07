@@ -403,7 +403,6 @@ menuBtn.addEventListener('click', () => {
     historiaAlice.style.display = 'none';
     historiaSofia.style.display = 'none';
     audioVideo = null;
-    textVideo.textContent = '';
     animaciones = [];
     audios = [];
     text = [];
