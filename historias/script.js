@@ -182,14 +182,14 @@ let audiosAlice = [
 let textAlice = [
     "Porque cuando nací, a los niños se les otorgan espíritus",
     "Ella cree (mi abuela) que yo tenía dos espíritus",
-    "Me acuerdo más de ella que mi propio padre, o sea, tengo más presente a mi bisabuela y a mi propio padre, a pesar de que ambos estén muertos",
-    "Mi abuela y mi madre siempre resaltaron que tenía que que estudiar mucho ",
+    "Me acuerdo más de mi abuela que de mi propio padre, a pesar de que ambos estén muertos",
+    "Mi abuela y mi madre siempre resaltaron que tenía que estudiar mucho",
     "En el colegio Sinaí nunca tuve paz, siempre me molestaban, me decían que era gay, que era gorda, resaltaban que era fea",
     "Mi madre era una mujer que ha sido líder a donde quiera que vaya, entonces este liderazgo no era bien visto",
-    "Mi madre tiene que irse, separarse por temas differentes, yo me quedo sola, enfrentándome",
-    "como yo decidí ser feliz entonces entro a campus diverso",
-    "Esta búsqueda es personal conmigo misma, y dentro de las comunidades indígenas, porque busco un referente cuando empiezas a transición",
-    "Alice en 5 años estará haciendo una académica de geografía estará enseñando su geografía del cuerpo sobre geografía del género sobre la geografía trans directamente y adueñándose del tema",
+    "Mi madre tiene que irse, separarse por temas diferentes, yo me quedo sola, enfrentándome",
+    "como yo decidí ser feliz entonces entró a campus diverso, de la Univalle",
+    "Esta búsqueda es personal conmigo misma, y dentro de las comunidades indígenas, porque busqué un referente cuando empecé transición",
+    "Alice, en cinco años, será una académica de geografía, estará enseñando sobre género y geografía trans, adueñándose del tema.",
 ]
 
 // Historia Sofia
@@ -228,15 +228,15 @@ let audiosSofia = [
 
 let textSofia = [
     "Cuando me preguntaban que si me gustaban los hombres, yo les decía que sí… en el colegio, era yo misma, me sentía libre… pero en mi casa era otra persona, era el hombre que siempre habían querido.",
-    "… desde pequeña yo usaba los vestidos de mi tía, me maquillaba, las flores me las ponía en la cabeza y decía que yo era una mujer… pero también era bastante duro por parte de mi papá, me pegaba mucho.",
-    "Con mi mamá sí fue algo muy muy bonito, porque ella me dijo “tranquila, que yo la apoyaré”. Eso era un alivio para mí y estaba súper feliz.",
-    "Me fui incluso con el cabello largo, con las extensiones, con las uñas, y en ese momento me llamó la coordinadora (del colegio) y me dijo que por qué, que hiciera el favor de quitarse eso.",
-    "Una profesora que llegó me preguntó, por qué estaba así?, me dijo que me fuera así que no le diera el gusto. Súper contenta me fui con mi vestido rojo con la extensión, súper bonita ",
-    "Durante un año vi los cambios pero era como difícil porque te daba unos bajones horribles, como que te daba una depresión, o sea, a veces estaba feliz, y al rato, ya me daban ganas de llorar. ",
-    "Mi papá se enteró por unas fotos y por mi tía, no recuerdo bien. Me dijo un poco de cosas que la verdad me dolió bastante Él cumple años el 24 de diciembre y falleció el 25, fue bastante duro para mí porque a pesar de todo iba a seguir siendo mi papá.",
-    "Empecé a salir hacia las asambleas, ahí fue como que el boom porque era la primera trans indígena o sea me veían como un bicho raro",
-    "una vez un mayor me dijo que yo tenía una enfermedad y que para eso se tenía la cura de que era con los baños y llevarlo a bañar a la laguna; y llegó otro mayor y dijo eso es algo normal, eso es algo que se sabe desde hace muchísimo tiempo. ",
-    "En cinco años me me vería cumpliendo algo de mis sueños que es realizar mis 15 a lo que cumpla mis 25, es algo que había querido celebrar. También quiero estar estudiando haciendo mi carrera que sería idiomas o psicología. ",
+    "… desde pequeña yo usaba los vestidos de mi tía, me maquillaban, las flores me las ponía en la cabeza y decía que yo era una mujer… pero mi papá era bastante duro, me pegaba mucho.",
+    "Con mi mamá sí fue algo muy bonito, porque ella me dijo: “tranquila, que yo la apoyaré”. Eso era un alivio para mí y estaba súper feliz.",
+    "Al colegio me fui incluso con el cabello largo, con las extensiones, con las uñas, y en ese en ese momento me llamó la coordinadora y me dijo que “hiciera el favor de quitarse eso”.",
+    "Una profesora que llegó me preguntó: ¿por qué estaba así?, me dijo que me fuera así, que no le diera el gusto. Súper contenta me fui con mi vestido rojo, con las extensiones, súper bonita",
+    "Durante un año vi los cambios pero era como difícil porque te daba unos bajones horribles, como que te daba una depresión, o sea, a veces estaba feliz, y al rato, ya me daban ganas de llorar.",
+    "Mi papá se enteró por unas fotos y por mi tía, no recuerdo bien. Me dijo un poco de cosas que la verdad me dolió bastante. Él cumple años el 24 de diciembre y falleció el 25, fue bastante duro para mí porque a pesar de todo iba a seguir siendo mi papá.",
+    "Empecé a salir a las asambleas, ahí fue como que el boom porque era la primera trans indígena, o sea, me veían como un bicho raro.",
+    "Una vez un mayor me dijo que yo tenía una enfermedad, que eso tenía cura: los baños y llevarme a bañar a la laguna; y llegó otro mayor y dijo eso es algo normal, eso es algo que se sabe desde hace muchísimo tiempo.",
+    "En cinco años me veo realizando uno de mis sueños que es celebrar mis 15 cuando cumpla los 25 años, es algo que había querido celebrar. También quiero estudiar mi carrera profesional que sería idiomas o psicología.",
 ]
 
 // Variables
