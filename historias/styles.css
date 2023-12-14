@@ -376,6 +376,9 @@ main {
     #valientas-logo {
         width: 400px;
     }
+    .captions {
+        top: 20%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -384,6 +387,9 @@ main {
     }
     #valientas-logo {
         width: 300px;
+    }
+    .captions {
+        top: 20%;
     }
 }
 
@@ -424,6 +430,9 @@ main {
     .text {
         font-size: 15px;
         width: 40%;
+    }
+    .captions {
+        top: 20%;
     }
     .animation {
         border: 3px solid black;

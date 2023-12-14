@@ -40,13 +40,13 @@ let audiosYury = [
 
 let textYury = [
     "Yo veía un chico enfrente de mi casa y me atraía mucho. En el colegio también me atraían varios.",
-    "Me volé de mi casa porque no me aceptaban, sobre todo mi hermano mayor, él me hacía la vida imposible, y mi mamá. Tenía 10 años.",
+    "Me volé de mi casa porque no me aceptaban, sobre todo mi hermano mayor, él me hacía la vida imposible, y mi papá. Tenía 10 años",
     "Me fui a recorrer el departamento, estuve en Anserma, Sevilla; dormí en la calle, estuve presa, estuve en el hospital.",
     "La gente antes discriminaba a los trans, lo trataban mal a uno y le decían cochinadas, nos tiraban piedras.",
     "Después de cinco años me encontré a mi hermano mayor, que era dragoneante del batallón, en un prostíbulo… Mi hermano me quiso ver y él me abrazó y perdonó.",
     "Tenía ya unos 20 años, llegué a la casa de mi madre y pregunté por ella. Me recibieron mis hermanas y nadie me reconoció.",
     "Cuando llegó (su mamá) no me reconoció, me preguntó quién era. Estaba desesperada… le dije que era su hijo, nos abrazamos y lloramos ese día, junto con mi familia.",
-    "Mi mamá me llevó donde unas estilistas amigas de ellas. Las conocí y ellas me recibieron como amiga. Ya me quedé luego trabajando con ellas como estilista.",
+    "Mi mamá me llevó donde unas estilistas amigas de ella. Las conocí y me recibieron muy bien. Ya me quedé trabajando allí como estilista.",
     "Cuando resulté con VIH para mi fue horrible, era como si me fuera a morir. No quería llegar a mi casa por el miedo al rechazo. Los reuní a todos y les dije que estaba enferma. ",
     "Todos mis hermanos me abrazaron y lloraron conmigo, no dejaron que me fuera de la casa. Tuve el apoyo de todos ellos."
 ]
@@ -89,8 +89,8 @@ let textBicky = [
     "Desde muy pequeña me sentí muy mujer.",
     "Ella (una amiga) lo que hizo fue contarle a gran parte del barrio que me gustaban los hombres, y eso desencadenó acoso y bullying por parte de la gente.",
     "Eso hizo que me alejara de la calle, yo no me la pasaba jugando con los otros chicos sino viendo televisión en mi casa y estudiando porque siempre me gustó el estudio",
-    "Cuando comencé a comprar mi ropa desde muy joven, empecé a mezclar ropa masculina y femenina. Luego comencé mi tránsito.",
     "Mi mamá me preguntaba (si me gustaban los hombres), yo tenía ocho años y no le decía lo que quería, siempre evadía. Yo le decía “hoy me fue bien en el colegio”.",
+    "Cuando comencé a comprar mi ropa desde muy joven, empecé a mezclar ropa masculina y femenina. Luego comencé mi tránsito.",
     "Cuando uno se está reconociendo, uno se niega, hasta que uno se da cuenta que debe fluir.",
     "La aceptación social es demasiado importante. Lo primero es aceptarse a uno mismo. Debe darse una ruptura para que la respete a una su familia, hay que alejarse un poco.",
     "(Papá de Bicky) “Varios amigos me criticaron, me preguntaron si ella era hijo o hija, le dije que hija y que no me avergüenza eso”.",
@@ -228,7 +228,7 @@ let audiosSofia = [
 
 let textSofia = [
     "Cuando me preguntaban que si me gustaban los hombres, yo les decía que sí… en el colegio, era yo misma, me sentía libre… pero en mi casa era otra persona, era el hombre que siempre habían querido.",
-    "… desde pequeña yo usaba los vestidos de mi tía, me maquillaban, las flores me las ponía en la cabeza y decía que yo era una mujer… pero también era bastante duro por parte de mi papá, me pegaba mucho.",
+    "… desde pequeña yo usaba los vestidos de mi tía, me maquillaba, las flores me las ponía en la cabeza y decía que yo era una mujer… pero también era bastante duro por parte de mi papá, me pegaba mucho.",
     "Con mi mamá sí fue algo muy muy bonito, porque ella me dijo “tranquila, que yo la apoyaré”. Eso era un alivio para mí y estaba súper feliz.",
     "Me fui incluso con el cabello largo, con las extensiones, con las uñas, y en ese momento me llamó la coordinadora (del colegio) y me dijo que por qué, que hiciera el favor de quitarse eso.",
     "Una profesora que llegó me preguntó, por qué estaba así?, me dijo que me fuera así que no le diera el gusto. Súper contenta me fui con mi vestido rojo con la extensión, súper bonita ",
@@ -283,7 +283,7 @@ btnHistoriaBicky.addEventListener('click', () => {
     historiaBicky.style.display = 'flex';
     audioVideo.play();
     loopHistoriaBicky.play();
-    loopHistoriaBicky.volume = 0.4;
+    loopHistoriaBicky.volume = 0.2;
     console.log(textVideo)
 })
 
@@ -315,7 +315,7 @@ btnHistoriaAlice.addEventListener('click', () => {
     historiaAlice.style.display = 'flex';
     audioVideo.play();
     loopHistoriaAlice.play();
-    loopHistoriaAlice.volume = 0.4;
+    loopHistoriaAlice.volume = 0.25;
     console.log(textVideo)
 })
 
@@ -331,7 +331,7 @@ btnHistoriaSofia.addEventListener('click', () => {
     historiaSofia.style.display = 'flex';
     audioVideo.play();
     loopHistoriaSofia.play();
-    loopHistoriaSofia.volume = 0.3;
+    loopHistoriaSofia.volume = 0.2;
     console.log(textVideo)
 })
 
