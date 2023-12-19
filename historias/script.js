@@ -108,7 +108,7 @@ const loopHistoriaMaison = document.getElementById('loop-maison')
 
 let animacionesMaison = [
     "./src/escena-maison1.gif",
-    "./src/escena-maison1.gif",
+    "./src/escena-maison2.gif",
     "./src/escena-maison3.gif",
     "./src/escena-maison4.gif",
     "./src/escena-maison5.gif",
